@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nav bar</title>
+	<link rel="icon" type="image/png" href="logo-design.png">
+
+</head>
+
+<style type="text/css">
+	*{
+		padding: 0;
+		margin: 0;
+		
+	}
+	div.banner{
+		height: 100vh;
+		background: linear-gradient(90deg, blueviolet, violet);
+	}
+	div.container{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 100vh;
+		border-bottom: 10px;
+		
+		
+	}
+	div.box{
+		box-shadow: 5px 10px 5px 5px blueviolet;
+		background: linear-gradient(470deg, blueviolet, violet);
+		border-radius: 20px;
+		padding: 20px;
+		height: 50vh;
+		border-style: solid;
+		border:blueviolet;
+
+	}
+	
+	div.input{
+		padding: 10px;
+		    border-bottom:1px solid #D1D1D4;
+	}
+	input::placeholder {
+	  color: white;
+	  opacity: 0.5;
+	}
+	div.header{
+		text-align: center;
+		padding: 20px;
+		color: white;
+	}
+
+	input{
+
+		background: transparent;
+		padding: 10px;
+		border-radius: 10px;
+		 border:blueviolet;
+	}
+
+	input:active,
+	input:focus,
+	input:hover {
+		outline: none;
+		border-bottom-color: #6A679E;
+
+	}
+	div.button{
+		padding-top: 20px;
+		text-align: center;
+	}
+	button{
+		width: 100px;
+		border-radius: 50px;
+		padding: 10px;
+		border:blueviolet;
+	}
+
+</style>
+<body>
+
+	<div class="banner">
+		<div class="container">
+			<div class="box">
+				<div class="header">
+					<h1>LOG IN</h1>
+				</div>
+				
+				<form>
+					<div class="input">
+						<input type="email" name="name" placeholder="Email">
+					</div>
+	
+					<div class="button">
+						<button type="button">Log in</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

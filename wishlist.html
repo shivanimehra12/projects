@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title></title>
+</head>
+<style type="text/css">@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+body::before {
+                content: "";
+                display: block;
+                position: absolute;
+                z-index: -1;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background: #ffffff;
+                /*background: -webkit-linear-gradient(bottom,#005bea,#00c6fb);*/
+                /*background: -o-linear-gradient(bottom,#005bea,#00c6fb);*/
+                /*background: -moz-linear-gradient(bottom,#005bea,#00c6fb);*/
+                /*background: linear-gradient(bottom,#005bea,#00c6fb);*/
+                opacity: .9;
+            }
+
+.blog-card {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2),
+              -1px -1px 10px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 2vh;
+}
+
+.header {
+  background-color: #5A80B4;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.category {
+  margin: 0;
+  padding: 1vw;
+  color: #fff;
+  font-size: 1em;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-transform: uppercase;
+}
+
+.picture-wrapper {
+  height: 30vh;
+  width: 100%;
+  background-image: url(https://www.hilton.com/im/en/PNQCICI/1381918/pnqcici-pool-night.jpg?impolicy=crop&cw=7360&ch=3929&gravity=NorthWest&xposition=0&yposition=491&rw=768&rh=410);
+  background-size: cover;
+}
+
+.text-wrapper {
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 1.25em;
+  padding: 6vh 4vh 2vh 4vh;
+}
+
+.author {
+  font-size: 0.75em;
+  padding-left: 4vh;
+  font-style: italic;
+}
+
+.text {
+  font-size: 1em;
+  padding: 4vh 4vh;
+}
+
+.hover {
+  font-size: 1.5625em;
+}
+
+
+@media screen and (min-width: 700px) {
+  .blog-card {
+    width: 600px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+    
+  .picture-wrapper {
+    height: auto;
+    width: 60%;
+    border-bottom-left-radius: 10px;
+  }
+
+  .title {
+    padding-right: 10vh;
+  }
+}</style>
+<body>
+  <div>
+  <div class="blog-card">
+  <div class="header">
+    <h2 class="category">Travel</h2>
+  </div>
+
+  <div class="content">
+    <div class="picture-wrapper"></div>
+        
+    <div class="text-wrapper">  
+      <h1 class="title">10 great things to do in Buenos Aires</h1>
+      <h3 class="author">By Natalia Lavega</h3>
+      <p class="text">
+        The beginning of spring is one of the best moments to 
+        visit the city. Let's explore...
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
